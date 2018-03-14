@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/png" href="images/favicon.ico" />
+    <title>Cricket | Home</title>
+    <meta name="description" content="TEMPLATE ONE" />
+    <meta name="keywords" content="TEMPLATE ONE" />
+    <meta name="distribution" content="Global" />
+    <meta name="ROBOTS" content="INDEX, FOLLOW" />
+    <meta name="msnbot" content="INDEX, FOLLOW" />
+    <meta name="googlebot" content="INDEX, FOLLOW" />
+    <meta name="allow-search" content="yes" />
+    <meta name="author" content="TEMPLATE ONE" />
+    <meta name="copyright" content="TEMPLATE ONE" />
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+    <!--//-->
+    <!--[if lt IE 9]><script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+         <![endif]-->
+    <!--//-->
+    <link rel="stylesheet" href="assets/css/styleadmin.css">
+    <link href="assets/css/style.css" rel="stylesheet">
+    <link href="assets/css/owl.carousel.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/icons.css">
+</head>
+<body>
+<app-root></app-root>
+    <script src="assets/js/jquery.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/scripts.js"></script>
+    <script src="assets/js/owl.carousel.min.js"></script>
+    <script>
+        jQuery(document).ready(function ($) {
+            $('.ground-slider').owlCarousel({
+                autoplay: true,
+                autoplayTimeout: 6000,
+                navigation: true,
+                items: 1,
+                loop: true,
+            });
+            $('.carousel-explore').owlCarousel({
+                autoplay: true,
+                autoplayTimeout: 4000,
+                loop: true,
+                nav: false,
+                responsiveClass:true,
+                responsive:{
+                    0:{
+                        items:1
+                    },
+                    768:{
+                        items:2
+                    },
+                    1024:{
+                        items:3
+                    }
+                }
+            });
+        });
+    </script>
+<script type="text/javascript" src="inline.bundle.js"></script><script type="text/javascript" src="polyfills.bundle.js"></script><script type="text/javascript" src="styles.bundle.js"></script><script type="text/javascript" src="vendor.bundle.js"></script><script type="text/javascript" src="main.bundle.js"></script></body>
+</html>
